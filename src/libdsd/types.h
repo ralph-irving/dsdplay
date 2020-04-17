@@ -26,7 +26,7 @@
 #ifndef	_LOCAL_TYPES_H
 #define	_LOCAL_TYPES_H	1
 
-#if defined(linux) || defined (__APPLE__)
+#if defined(linux) || defined (__APPLE__) || (__FreeBSD__)
 
 #include <sys/types.h>
 #include <stdbool.h>
